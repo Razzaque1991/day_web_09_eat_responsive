@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Montserrat Alternates", serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: "Montserrat Alternates", serif;
+ }
+ /*----------------------------------------------- banner-section-start */
+ .banner-container{
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+ }
+ .right-banner{
+    width: 792px;
+    height: 843px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .banner-img1 img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+ }
+ .banner-img2 img {
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    left: 705px;
+    top: 35px;
+}
+.left-banner h1{
+   font-size: 40px;
+   font-weight: bold;
+   color: #575757;
+   margin-bottom: 20px;
+}
+.left-banner h1 span{
+   color:#FBA24F;
+}
+.left-banner p{
+   font-size: 16px;
+   font-weight: bol400;
+   color: #575757;
+   margin-bottom: 20px;
+}
+.banner-btn  button{
+   width: 160px;
+   height: 50px;
+   background-image: linear-gradient(to right, #FBA24F , #FF1E1E);
+   border: none;
+   border-radius: 10px;
+   color: white;
+   margin-top: 10px;
+}
+ /*------------------------------------------------- banner-section-end */
